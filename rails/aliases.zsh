@@ -11,7 +11,6 @@ alias dev-r="dev-restart"
 
 alias dev-console='bin/rails console'
 alias dev-c="dev-console"
-export PATH="/opt/homebrew/opt/node@16/bin:$PATH"
 
 alias dev-test="bin/rails test"
 alias dev-t="dev-test"
