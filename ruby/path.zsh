@@ -1,2 +1,2 @@
-export GEM_HOME="$HOME/.gem"
+export PATH="$HOME/.gem/bin:$PATH"
 export PATH="$HOME/.rbenv/bin:$PATH"
