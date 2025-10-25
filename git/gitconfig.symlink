@@ -21,8 +21,6 @@
         whitespace = nowarn
 [mergetool]
         keepBackup = false
-[difftool]
-        prompt = false
 [help]
         autocorrect = 1
 [push]
@@ -38,3 +36,15 @@
 	defaultBranch = main
 [pull]
 	rebase = false
+[diff]
+	tool = vscode
+[difftool]
+	prompt = false
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = "code --wait "
+[http]
+	postBuffer = 484288000
